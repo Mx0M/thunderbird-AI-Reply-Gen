@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Reply Generator</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="popup-container">
+        <div class="header">
+            <h2>AI Reply Generator</h2>
+        </div>
+
+        <div class="form-group">
+            <label for="emailType">Email Type:</label>
+            <select id="emailType">
+                <option value="new">New Email</option>
+                <option value="reply">Reply</option>
+                <option value="thread">Reply on Thread</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="instructions">Instructions for AI:</label>
+            <textarea id="instructions" placeholder="Enter instructions for the AI reply"></textarea>
+        </div>
+
+        <button id="generateReply" class="btn btn-primary">Generate AI Reply</button>
+
+        <div id="status" class="status hidden"></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
