@@ -79,27 +79,7 @@ The extension sends the email’s subject, body, and sender to the backend.
 
 Receive a generated reply (subject, body, sender), which you can edit before sending.
 
-🧑‍💻 Development
 
-To modify or build the extension:
-
-Install Node.js and web-ext:
-
-npm install -g web-ext
-
-
-Navigate to the extension directory and build:
-
-web-ext build
-
-
-Test locally:
-
-web-ext run
-
-🏗 Backend Details
-
-The backend is a FastAPI application that uses LangChain and Ollama to process emails and generate replies.
 
 Key Components
 
