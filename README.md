@@ -30,7 +30,7 @@ It allows users to generate professional, context-aware email replies directly w
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/[your-username]/thunderbird-ai-reply-generator.git
+   git clone https://github.com/Mx0M/thunderbird-AI-Reply-Gen.git
 In Thunderbird, go to Tools > Add-ons and Themes.
 
 Click the gear icon and select Install Add-on From File.
